@@ -9,8 +9,8 @@ client.on("ready", () => {
     })
 
 var timeouts  = new Map([])
-var delay = 5000
-var afkChannelID = "958066596843225178"
+var delay = ""
+var afkChannelID = ""
 
 client.on("voiceStateUpdate", (oldState, newState) =>
 {
